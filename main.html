@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">Tourism</h1>
+                <p class="paragraph">Plan your trip wherever you want to go.</p>
+                <button class="button" onclick="display('sectionfavouriteplace')">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfavouriteplace">
+        <div class="favourite-places-bg-container">
+            <h1 class="favourite-places-heading">Favourite Places</h1>
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectionBodhGayadetailedview')">
+                <div>
+                    <h1 class="favourite-places-card-heading">Bodh Gaya</h1>
+                    <p class="favourite-place-card-description">Bodh Gaya is the most important of the main four pilgrimage sites related to the life of Gautama Buddha</p>
+                </div>
+                <img src="https://lh6.googleusercontent.com/proxy/8xXeNZuLU-ZgF8SpOffguic82EC_UJXWeISEIuS3y48a95RxaluwZ4MxmSSxtN7-uXeo93zoSSZfVomMuVU_nX7z9olw0-haunueDhh5VV_IEU1JMckqBJMWEon8-NLKbKPenSVrfNd78xNuU2FnhZTwU4U=w810-h468-n-k-no" class="favourite-place-card-image" />
+            </div>
+
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectionVaranasidetailedview')">
+                <div>
+                    <h1 class="favourite-places-card-heading"> Varanasi Temple </h1>
+                    <p class="favourite-place-card-description">Kashi Vishvanath Temple is one of the most famous Hindu temples dedicated to Lord Shiva </p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi-temple-img.png" class="favourite-place-card-image" />
+            </div>
+
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectionTajMahalDetailedview')">
+                <div>
+                    <h1 class="favourite-places-card-heading"> Taj Mahal</h1>
+                    <p class="favourite-place-card-description"> The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. </p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" class="favourite-place-card-image" />
+            </div>
+
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectionTirupatidetailedview')">
+                <div>
+                    <h1 class="favourite-places-card-heading"> Tirupati</h1>
+                    <p class="favourite-place-card-description"> The Sri Venkateswara Swami Temple is a Hindu temple situated in the hills of Tirumala at Tirupati</p>
+                </div>
+                <img src="https://lh3.googleusercontent.com/p/AF1QipNHYFtOQDqND8AfAd-ob4vJ-d9O8h8NTkYiVsYE=s1360-w1360-h1020" class="favourite-place-card-image" />
+            </div>
+
+            <div class="favourite-places-card-container d-flex flex-row" onclick="display('sectionRedFortDetailedview')">
+                <div>
+                    <h1 class="favourite-places-card-heading"> Red Fort</h1>
+                    <p class="favourite-place-card-description"> The Red Fort is a historic fort in the Old Delhi neighbourhood of Delhi, India, that historically served as the main residence of the Mughal emperors.</p>
+                </div>
+                <img src="https://lh3.googleusercontent.com/p/AF1QipOpBQma7EKzaRoWiEhcWMj4CTYI4am1bTeazABd=s1360-w1360-h1020" class="favourite-place-card-image" />
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionhome')">
+                Back
+            </button>
+        </div>
+    </div>
+    <div id="sectionTajMahalDetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading"> Detailed View </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nMpHfixkRNA?si=tkZwKnQFvXhkuW9W" allowfullscreen></iframe>
+                </div>
+                <div class="container">
+                    <h1 class="heading">Taj Mahal</h1>
+                    <p class="paragraph">
+                        Taj Mahal is located on the right bank of
+                        the Yamuna River in a vast Mughal garden that encompasses nearly 17 hectares,
+                        in the Agra District in Uttar Pradesh. It was built by Mughal Emperor Shah Jahan
+                        in memory of his wife Mumtaz Mahal with construction starting in 1632 AD and completed
+                        in 1648 AD, with the mosque,the guest house and the main gateway on the south, the outer
+                        courtyard and its cloisters were added subsequently and completed in 1653 AD. The existence
+                        of several historical and Quaranic inscriptions in Arabic script have facilitated setting
+                        the chronology of Taj Mahal. For its construction, masons, stone-cutters, inlayers, carvers,
+                        painters, calligraphers, dome builders and other artisans were requisitioned from the whole of
+                        the empire and also from the Central Asia and Iran.Ustad-Ahmad Lahori was the main architect of
+                        the Taj Mahal.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouriteplace')">
+                Back
+            </button>
+        </div>
+    </div>
+
+    <div id="sectionRedFortDetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading"> Detailed View </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Scc6TpDTxN8?si=Gklj8zkRMy2_KS-8" allowfullscreen></iframe>
+                </div>
+                <div class="container">
+                    <h1 class="heading">Red Fort</h1>
+                    <p class="paragraph">
+                        The Red Fort Complex was built as the palace fort of Shahjahanabad
+                        – the new capital of the fifth Mughal Emperor of India, Shah Jahan.
+                        Named for its massive enclosing walls of red sandstone, it is adjacent
+                        to an older fort, the Salimgarh, built by Islam Shah Suri in 1546, with
+                        which it forms the Red Fort Complex. The private apartments consist of a
+                        row of pavilions connected by a continuous water channel, known as the
+                        Nahr-i-Behisht (Stream of Paradise). The Red Fort is considered to represent the
+                        zenith of Mughal creativity which, under the Shah Jahan, was brought to a new level
+                        of refinement. The planning of the palace is based on Islamic prototypes, but each
+                        pavilion reveals architectural elements typical of Mughal building, reflecting a
+                        fusion of Persian, Timurid and Hindu traditions The Red Fort’s innovative planning
+                        and architectural style, including the garden design, strongly influenced later buildings
+                        and gardens in Rajasthan, Delhi, Agra and further afield.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouriteplace')">
+                Back
+            </button>
+        </div>
+    </div>
+    <div id="sectionTirupatidetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading"> Detailed View </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LV-8IxAdUVk?si=2PDTfo1oRCGgw7SS" allowfullscreen></iframe>
+                </div>
+                <div class="container">
+                    <h1 class="heading">Tirupati Balaji</h1>
+                    <p class="paragraph">
+                        Situated in the Chittoor district of Andhra Pradesh, Tirupati is known for
+                        Lord Venkateshwara Temple, one of the most visited pilgrimage centers in the world.
+                        It is also one of the world's richest temples known by different names - Tirumala Temple,
+                        Tirupati Temple, and Tirupati Balaji Temple. Tirumala is one of the seven hills in Tirupati,
+                        where the main temple is located. The temple is believed to be where Lord Venkateshwara took
+                        the form of an idol and is home to the deity Govinda. Tirupati is one of India's oldest cities
+                        and is mentioned in many ancient Vedas and Puranas.Tirupati is the main town, while Tirumala
+                        Hills is where Tirupati Balaji Temple is situated. Also called Sri Venkateshvara Swami Vaari
+                        Temple, it is dedicated to Lord Venkateswara, believed to be a form of Lord Vishnu, who appeared
+                        on earth to save mankind from kali yuga. The famous Tirupati Laddoo, given as a prasad at the
+                        temple, has the Geographical indication tag, which means it can only be made and sold at the
+                        temple. It is hugely loved by the pilgrims and is generally included in the paid darshan tickets
+                        or can be bought from the laddoo counters inside the temple complex. Many devotees also tonsure
+                        their heads as an offering to Lord Venkateswara Swamy once their wish is fulfilled or to get rid
+                        of their sins and ego. It is done free of cost at Kalyanakatta buildings. Another popular ritual
+                        at Tirupati Temple is Thulabaram, wherein a devotee sits on one side of the weighing balance scale.
+                        In contrast, the other side is filled with materials (like sugar, jaggery, tulsi leaves, banana, gold,
+                        and coins) more than the weight of the devotee. This ritual is mostly performed with children and
+                        infants.The non-stop chanting of ‘Om Namo Venkatesaya,’ the mad pilgrim rush, and the 8-feet tall idol
+                        of Lord Venkateshwara – everything about the Sri Venkateshwara Temple is majestic. Spread over an area
+                        of 26 kilometers and is visited by nearly 50,000 pilgrims daily. The Padmavathi Temple, dedicated to
+                        Goddess Padmavati, consort of Lord Venkateswara, is situated at Tiruchanoor in Tirupati town.
+                        Many devotees believe they should visit Goddess Padmavati and seek her blessings before visiting
+                        Lord Venkateswara Swamy at Tirumala.
+
+                        There are other temples in Tirupati too that you can visit, including the Sri Kalahasti temple, Sri Govindarajaswami Temple, the Kondandarama Temple, the Parashurameshwara Temple, and the ISKCON temple. Tirupati is home to a unique geological wonder that you shouldn’t miss out on! The Silathoranam is a natural arch formed out of rocks and is located at the Tirumala Hills.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouriteplace')">
+                Back
+            </button>
+        </div>
+    </div>
+    <div id="sectionBodhGayadetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading"> Detailed View </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nlOb1mbxQMQ?si=kEti16ejRBqRz9Hz" allowfullscreen></iframe>
+                </div>
+                <div class="container">
+                    <h1 class="heading">Bodh Gaya</h1>
+                    <p class="paragraph">
+                        Bodh Gaya is a Buddhist pilgrimage site in Gaya District of Bihar.
+                        Famous for the Mahabodhi Temple, It was here under the Bodhi tree
+                        that Gautama Buddha attained enlightenment.It is now one of the
+                        UNESCO World Heritage Sites, and a lot of foreign countries,
+                        including Japan and China, have helped the Indian government
+                        in building facilities for the Buddhist pilgrims. The place is
+                        bustling with pilgrims all through the year from India and abroad
+                        who come to pay their homage in monasteries, temples and remnants of Bodhi Tree.
+                        Located near the river Neranjana, Bodh Gaya was earlier known as Uruwela.
+                        It was also known as Sambodhi, Vajrasana or Mahabodhi until the 18th century CE.
+                        It is one of the four important Buddhist sites that include: Kushinagar, Lumbini and Sarnath.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouriteplace')">
+                Back
+            </button>
+        </div>
+    </div>
+    <div id="sectionVaranasidetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading"> Detailed View </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wZXXyhygPtw?si=U2_3ufogqzpgykz2" allowfullscreen></iframe>
+                </div>
+                <div class="container">
+                    <h1 class="heading">Varanasi</h1>
+                    <p class="paragraph">
+                        The very first mention of the Kashi Vishwanath Temple can be
+                        found in the Puranas including the Kashi Khanda (section) of
+                        Skanda Purana. Interestingly, this temple has seen complete
+                        annihilation and rebuilding many times over the course of history.
+                        The first time the temple was destroyed was in the year 1194 by the
+                        hands of Qutb-ud-din Aibak's army when he defeated the King of Kannauj.
+                        The temple was rebuilt during the rule of Delhi's Iltutmish and was
+                        demolished again during Sikander Lodhi's time. Raja Man Singh rebuilt
+                        the temple during Mughal Emperor Akbar's rule. In 1669 CE, Emperor Aurangzeb
+                        destroyed the temple and built the Gyanvapi Mosque in its place. Also known
+                        as the Golden Temple dedicated to Lord Shiva, it was finally rebuilt in the
+                        year 1780 by the Maharani Ahilyabai Holkar of Indore, the Maratha monarch.
+                        The temple comprises of two domes covered in gold donated by the Sikh Maharaja
+                        Ranjit Singh, the Punjab Kesari, while the Bhosales of Nagpur donated silver to
+                        the temple. Since 28 January 1983, the temple has become the property of Uttar
+                        Pradesh government and was managed by Dr Vibhuti Narayan Singh and later by the Kashi Naresh.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouriteplace')">
+                Back
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
